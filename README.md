@@ -29,7 +29,7 @@ You just need to download (as ZIP) or clone the plugin into whichever folder you
     $ git clone https://github.com/unrar/nowonlastfm
 
 
-And then edit the source file, `nowonlastfm.py`. Find line 24 and, if your username is `metalhead` you should replace it for:
+And then open the source file, `nowonlastfm.py`, with your **plain** text editor of choice. Find `USERNAME =` (it's around line 23) and, if your username is `metalhead` you should replace it for:
 
 ```python
 USERNAME = "metalhead"
