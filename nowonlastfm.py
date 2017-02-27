@@ -6,7 +6,6 @@
 """
 
 import hexchat
-import requests
 import pylast
 import os
 import time
