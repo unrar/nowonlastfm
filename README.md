@@ -1,8 +1,14 @@
-# Now on LastFM
+# Now on LastFM 🎧
 
-*NowOnLastFM* is a Python plug-in for Hexchat. Using the Hexchat wrapper for Python and the [pylast](https://github.com/pylast/pylast) fabulous library of tools to plug into the LastFM (and other similar services) API in a very easy way.
+*NowOnLastFM* is a Python plug-in for Hexchat. Using the Hexchat wrapper for Python and the [pylast](https://github.com/pylast/pylast) fabulous library of tools to plug into the LastFM (and other similar services) API in a very easy way. 💖
 
-## How to use?
+Once you've configured and authorized the plugin for your LastFM account, you'll be the coolest guy in the room. Whenever a cool song pops up, let everyone know you're listening to it by typing:
+
+    /listening
+
+No need to depend on network-side bots! 😜
+
+## Long guide for the easiest configuration ever
 
 For now, you need to manually change your username on the code - in further releases I'll try to make the authentication process a bit more separated, as in another command.
 
@@ -20,6 +26,6 @@ That should be it! It needs to be your username, because when you first load the
 
 So that's pretty much it! Now just open Hexchat, and depending on your OS, find something like `File > Load plugin or script...` and browse to the folder named `nowonlastfm` where you downloaded and edited the source, `nowonlastfm.py`. 
 
-If you experience any problems, please get in touch with me! 
+If you experience any problems, please get in touch with me! 💌
 
 **NOTE**: This is obvious, but you need to be using a scrobbler so that you're sending LastFM information about the track you're playing.
